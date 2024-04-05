@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "==0.68.0"
+uvicorn = "*"
+psycopg2-binary = "*"
+fastapi-jwt-auth = "*"
+pydantic = "==1.8.2"
+werkzeug = "*"
+psycopg2 = "*"
+sqlalchemy = "*"
+sqlalchemy-utils = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
